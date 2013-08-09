@@ -26,6 +26,8 @@ Enhancements:
 * Yield the receiver to `any_instance` implementation blocks (Sam Phippen).
 * Provide `instance_double` and `class_double` to create verifying doubles,
   ported from `rspec-fire` (Xavier Shay).
+* Messages can be allowed or expected on in bulk via
+  `receive_messages(:message => :value)` (Jon Rowe)
 
 ### 2.14.3 / 2013-08-08
 [full changelog](http://github.com/rspec/rspec-mocks/compare/v2.14.2...v2.14.3)
